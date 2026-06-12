@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/dugnas-app/sw.js', { scope: '/dugnas-app/' })})}
